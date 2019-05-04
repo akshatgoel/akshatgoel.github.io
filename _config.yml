@@ -1,1 +1,27 @@
-theme: jekyll-theme-midnight
+name:               "Akshat Goel"
+description:        ""
+meta_description:   ""
+author:             "Akshat"
+author_description: ""
+url:                "https://akshat.dev"
+baseurl:            "/"
+
+markdown:           kramdown
+
+highlighter:        rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+logo:               true
+paginate:           10
+google_analytics:   'UA-XXX-XX'
+disqus_shortname:   'akshat'
+
+permalink: /:title
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
